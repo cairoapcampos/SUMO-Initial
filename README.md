@@ -14,12 +14,12 @@ Criação de simulação no SUMO e OMNET++
 
 `4- Criar o arquivo: map.sumo.cfg`
 
-<configuration>
+`<configuration>
              <input>
              <net-file value="map.net.xml"/>
              <additional-files value="map.poly.xml"/>
              </input>
-</configuration>
+</configuration>`
 
 5- sumo-gui map.sumo.cfg - pegar coordenadas.
 
