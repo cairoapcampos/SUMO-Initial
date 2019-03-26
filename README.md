@@ -6,7 +6,7 @@ Criação de simulação no SUMO e OMNET++
 --------------------------
 
 
-1- netconvert --osm-files map.osm -o map.net.xml
+`1- netconvert --osm-files map.osm -o map.net.xml`
 
 2- cp /home/veins/src/sumo-0.32.0/data/typemap/osmPolyconvert.typ.xml .
 
