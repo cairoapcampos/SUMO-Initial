@@ -8,11 +8,11 @@ Criação de simulação no SUMO e OMNET++
 
 `1- netconvert --osm-files map.osm -o map.net.xml`
 
-2- cp /home/veins/src/sumo-0.32.0/data/typemap/osmPolyconvert.typ.xml .
+`2- cp /home/veins/src/sumo-0.32.0/data/typemap/osmPolyconvert.typ.xml .`
 
-3- polyconvert --net-file map.net.xml --osm-files map.osm --type-file osmPolyconvert.typ.xml -o map.poly.xml
+`3- polyconvert --net-file map.net.xml --osm-files map.osm --type-file osmPolyconvert.typ.xml -o map.poly.xml`
 
-4- Criar o arquivo: map.sumo.cfg
+`4- Criar o arquivo: map.sumo.cfg`
 
 <configuration>
              <input>
