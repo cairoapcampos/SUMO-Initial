@@ -11,22 +11,24 @@
 
 `netconvert --osm-files map.osm -o map.net.xml`
 
-3- Copiar arquivo osmPolyconvert.typ.xm
+3- Copiar arquivo osmPolyconvert.typ.xm:
 
 `cp /home/veins/src/sumo-0.32.0/data/typemap/osmPolyconvert.typ.xml .`
 
-4- Gerar o arquivo *.poly.xml 
+4- Gerar o arquivo *.poly.xml:
 
 `polyconvert --net-file map.net.xml --osm-files map.osm --type-file osmPolyconvert.typ.xml -o map.poly.xml`
 
-5- Criar o arquivo: map.sumo.cfg
+5- Criar o arquivo *.sumo.cfg:
 
-<configuration>
+`nano map.sumo.cfg`
+
+`<configuration>
              <input>
              <net-file value="map.net.xml"/>
              <additional-files value="map.poly.xml"/>
              </input>
-</configuration>
+</configuration>`
 
 6- sumo-gui map.sumo.cfg - pegar coordenadas.
 
