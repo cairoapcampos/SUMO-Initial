@@ -2,9 +2,11 @@
 # Geração do mapa no SUMO:
 --------------------------
 
-1- Fazer download do mapa do OpenStreetMap no formato osm.
+1- Selecionar um trecho do mapa do OpenStreetMap e fazer o download dele no formato osm.
 
-2- netconvert --osm-files map.osm -o map.net.xml
+2- Converter o arquivo *.osm para *.net.xml
+
+`netconvert --osm-files map.osm -o map.net.xml`
 
 3- cp /home/veins/src/sumo-0.32.0/data/typemap/osmPolyconvert.typ.xml .
 
