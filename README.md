@@ -1,6 +1,6 @@
 # VANET-Initial
 
-### Geração do mapa no SUMO:
+## Geração do mapa no SUMO:
 
 
 1- Selecionar um trecho do mapa do OpenStreetMap e fazer o download dele no formato osm.
@@ -80,7 +80,7 @@
 `sumo-gui map.sumo.cfg`
 
 
-### Configuração Veins
+## Configuração Veins
 
 1- Copiar pasta Veins:
 
