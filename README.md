@@ -11,7 +11,9 @@
 
 `netconvert --osm-files map.osm -o map.net.xml`
 
-3- cp /home/veins/src/sumo-0.32.0/data/typemap/osmPolyconvert.typ.xml .
+3- Copiar arquivo osmPolyconvert.typ.xm
+
+`cp /home/veins/src/sumo-0.32.0/data/typemap/osmPolyconvert.typ.xml .`
 
 4- polyconvert --net-file map.net.xml --osm-files map.osm --type-file osmPolyconvert.typ.xml -o map.poly.xml
 
