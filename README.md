@@ -63,17 +63,20 @@
 ```
 Descrição:
 
-* flow: Indica um fluxo de transito. Varios fluxos podem serem criados, cada um em uma linha com um inicio e um destino diferente.
+* flow: Indica um fluxo de transito. Varios fluxos podem serem criados, 
+cada um em uma linha com um inicio e um destino diferente.
 
 * Id: nome do fluxo
 
-* begin e end: Tempo de inicio e fim de um fluxo em segundos. O tempo final de 3600s equivale a 1 hora.
+* begin e end: Tempo de inicio e fim de um fluxo em segundos. 
+O tempo final de 3600s equivale a 1 hora.
 
 * number: Numero de veiculos
 
 * departLane: Forma como os veiculos serão distribuidos em uma pista dupla.
 
-* from e to: Inicio e fim de uma via. Numeros iguais indicam inicio e fim de transito em uma mesma via, numeros diferentes 
+* from e to: Inicio e fim de uma via. Numeros iguais indicam inicio e 
+fim de transito em uma mesma via, numeros diferentes 
 indicam incio de transito em uma via e fim de transito em outra via.
 ```
 
