@@ -5,19 +5,23 @@
 
 1- Selecionar um trecho do mapa do OpenStreetMap e fazer o download dele no formato osm.
 
-2- Converter o arquivo map.osm para map.net.xml:
+2- Editar modelo para remover vias ou partes de vias que não seram utilizadas:
+
+`netedit map.net.xml`
+
+3- Converter o arquivo map.osm para map.net.xml:
 
 `netconvert --osm-files map.osm -o map.net.xml`
 
-3- Copiar arquivo osmPolyconvert.typ.xml:
+4- Copiar arquivo osmPolyconvert.typ.xml:
 
 `cp /home/veins/src/sumo-0.32.0/data/typemap/osmPolyconvert.typ.xml .`
 
-4- Gerar o arquivo map.poly.xml:
+5- Gerar o arquivo map.poly.xml:
 
 `polyconvert --net-file map.net.xml --osm-files map.osm --type-file osmPolyconvert.typ.xml -o map.poly.xml`
 
-5- Criar o arquivo map.sumo.cfg:
+6- Criar o arquivo map.sumo.cfg:
 
 `nano map.sumo.cfg`
 
@@ -33,11 +37,11 @@
 
 ```
 
-6-Abrir o arquivo map.sumo.cfg e pegar o nome das vias:
+7-Abrir o arquivo map.sumo.cfg e pegar o nome das vias:
 
 `sumo-gui map.sumo.cfg`
 
-7- Criar o arquivo  fluxo.rou.xml:
+8- Criar o arquivo  fluxo.rou.xml:
 
 `nano fluxo.rou.xml`
 
@@ -49,11 +53,11 @@
 </routes>
 ```
 
-8- Gerar arquivo map.rou.xml:
+9- Gerar arquivo map.rou.xml:
 
 `duarouter -n map.net.xml -r fluxo.rou.xml  --randomize-flows -o map.rou.xml`
 
-9- Editar o arquivo map.sumo.cfg:
+10- Editar o arquivo map.sumo.cfg:
 
 `nano map.sumo.cfg`
 
@@ -76,7 +80,7 @@
 ```
 
 
-10- Iniciar a simulação no sumo-gui:
+11- Iniciar a simulação no sumo-gui:
 
 `sumo-gui map.sumo.cfg`
 
