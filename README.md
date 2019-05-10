@@ -5,13 +5,13 @@
 
 1- Selecionar um trecho do mapa do OpenStreetMap e fazer o download dele no formato osm.
 
-2- Editar modelo para remover vias ou partes de vias que não seram utilizadas:
-
-`netedit map.net.xml`
-
-3- Converter o arquivo map.osm para map.net.xml:
+2- Converter o arquivo map.osm para map.net.xml:
 
 `netconvert --osm-files map.osm -o map.net.xml`
+
+3- Editar modelo para remover vias ou partes de vias que não seram utilizadas:
+
+`netedit map.net.xml`
 
 4- Copiar arquivo osmPolyconvert.typ.xml:
 
