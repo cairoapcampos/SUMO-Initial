@@ -56,7 +56,7 @@
 
 ```
 <routes>
-        <flow id="fluxo1" begin="0" end="3600" number="2000" departLane="random" from="179369580#1" to="179369580#1"/>
+        <flow id="fluxo1" color="0,0,255" begin="0" end="3600" number="2000" departLane="random" from="179369580#1" to="179369580#1"/>
 </routes>
 ```
 
