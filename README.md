@@ -77,7 +77,7 @@
 ```
 
 
-10- Iniciar simulação no sumo-gui:
+10- Iniciar a simulação no sumo-gui:
 
 `sumo-gui map.sumo.cfg`
 
