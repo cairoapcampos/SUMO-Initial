@@ -36,7 +36,7 @@ Conteúdo:
 
 ```
 
-6-Abrir o *.sumo.cfg e pegar as coordenadas das vias:
+6-Abrir o arquivo *.sumo.cfg e pegar as coordenadas das vias:
 
 `sumo-gui map.sumo.cfg`
 
