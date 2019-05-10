@@ -23,12 +23,14 @@
 
 `nano map.sumo.cfg`
 
-`<configuration>
-             <input>
-             <net-file value="map.net.xml"/>
-             <additional-files value="map.poly.xml"/>
-             </input>
-</configuration>`
+Conteúdo:
+
+`<configuration>`
+             `<input>`
+             `<net-file value="map.net.xml"/>`
+             `<additional-files value="map.poly.xml"/>`
+             `</input>`
+`</configuration>`
 
 6- sumo-gui map.sumo.cfg - pegar coordenadas.
 
