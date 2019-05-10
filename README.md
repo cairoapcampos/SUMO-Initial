@@ -41,6 +41,13 @@
 
 `sumo-gui map.sumo.cfg`
 
+* Exemplo: Em um trecho de transito que começa e termina em uma mesma rodovia, cuja a pista é dupla e o sentido do transito é o mesmo, as vias podem se chamar:
+
+`179369580#1_1`
+`179369580#1_0`
+
+* Dessa nomenclatura pegaremos a parte`179369580#1`.
+
 8- Criar o arquivo  fluxo.rou.xml:
 
 `nano fluxo.rou.xml`
@@ -49,7 +56,7 @@
 
 ```
 <routes>
-        <flow id="fluxo1" begin="0" end="3600" number="5000" from="497075096#0" to="252010647"/>
+        <flow id="fluxo1" begin="0" end="3600" number="1000" departLane="random" from="179369580#1" to="179369580#1"/>
 </routes>
 ```
 
