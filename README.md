@@ -23,7 +23,7 @@
 
 `nano map.sumo.cfg`
 
-Conteúdo:
+* Conteúdo:
 
 ```
 <configuration>
