@@ -55,10 +55,19 @@ Obs: Em from e to colocar o nome das vias.
 
 8- duarouter -n map.net.xml -r fluxo.rou.xml  --randomize-flows -o map.rou.xml
 
-9- nano map.sumo.cfg 
+9- Editar o arquivo *.sumo.cfg:
 
-Adicional a linha:  <route-files value="map.rou.xml"/>
+`nano map.sumo.cfg`
 
+* Adicional a linha:  
+
+```
+<route-files value="map.rou.xml"/>
+```
+
+* Exemplo:
+
+```
 <configuration>
              <input>
              <net-file value="map.net.xml"/>
@@ -66,6 +75,7 @@ Adicional a linha:  <route-files value="map.rou.xml"/>
              <additional-files value="map.poly.xml"/>
              </input>
 </configuration>
+```
 
 
 10- sumo-gui map.sumo.cfg - Iniciar simulação.
