@@ -86,7 +86,7 @@
 
 `cp -R $HOME/src/veins $HOME/workspace.omnetpp`
 
-2- Renomear arquivos:
+2- Renomear arquivos que serão substituídos:
 
 `mv $HOME/workspace.omnetpp/veins/examples/veins/erlangen.net.xml   $HOME/workspace.omnetpp/veins/examples/veins/erlangen.net.xml.old`
 
