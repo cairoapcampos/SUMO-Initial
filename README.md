@@ -36,7 +36,9 @@ Conteúdo:
 
 ```
 
-6- sumo-gui map.sumo.cfg - pegar coordenadas.
+6-Abrir o *.sumo.cfg e pegar as coordenadas das vias:
+
+`sumo-gui map.sumo.cfg`
 
 7- nano fluxo.rou.xml
 
