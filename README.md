@@ -94,7 +94,7 @@
 
 `mv $HOME/workspace.omnetpp/veins/examples/veins/erlangen.rou.xml   $HOME/workspace.omnetpp/veins/examples/veins/erlangen.rou.xml.old`
 
-3- Renomear arquivos gerados e movê-los para o diretório `$HOME/workspace.omnetpp/veins/examples/veins`
+3- Renomear arquivos gerados e movê-los para o diretório `$HOME/workspace.omnetpp/veins/examples/veins`:
 
 `cp map.net.xml erlangen.net.xml   && mv erlangen.net.xml $HOME/workspace.omnetpp/veins/examples/veins`
 
