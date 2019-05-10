@@ -25,7 +25,6 @@
 
 Conteúdo:
 
-
 ```
 <configuration>
                <input>
@@ -36,7 +35,7 @@ Conteúdo:
 
 ```
 
-6-Abrir o arquivo *.sumo.cfg e pegar as coordenadas das vias:
+6-Abrir o arquivo *.sumo.cfg e pegar o nome das vias:
 
 `sumo-gui map.sumo.cfg`
 
@@ -45,6 +44,7 @@ Conteúdo:
 `nano fluxo.rou.xml`
 
 Conteúdo:
+Obs: Em from e to colocar o nome das vias.
 
 ```
 <routes>
