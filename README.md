@@ -84,7 +84,7 @@
 
 1- Copiar pasta Veins:
 
-cp -R $HOME/src/veins $HOME/workspace.omnetpp
+`cp -R $HOME/src/veins $HOME/workspace.omnetpp`
 
 2- Renomear arquivos:
 
