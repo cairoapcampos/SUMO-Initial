@@ -1,10 +1,9 @@
 # VANET-Initial
-Criação de simulação no SUMO e OMNET++
+## Criação de simulação no SUMO e OMNET++
 
 
---------------------------
-## Geração do mapa no SUMO:
---------------------------
+### Geração do mapa no SUMO:
+
 
 1- Selecionar um trecho do mapa do OpenStreetMap e fazer o download dele no formato osm.
 
