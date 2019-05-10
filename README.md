@@ -40,12 +40,18 @@ Conteúdo:
 
 `sumo-gui map.sumo.cfg`
 
-7- nano fluxo.rou.xml
+7- Criar o arquivo  *.rou.xml
 
+`nano fluxo.rou.xml`
+
+Conteúdo:
+
+```
 <routes>
         <flow id="fluxo1" begin="0" end="3600" number="5000" from="497075096#0" to="252010647"/>
         <flow id="fluxo2" begin="0" end="3600" number="5000" from="252024721" to="9653489#4"/>
 </routes>
+```
 
 8- duarouter -n map.net.xml -r fluxo.rou.xml  --randomize-flows -o map.rou.xml
 
