@@ -25,12 +25,12 @@
 
 Conteúdo:
 
-`<configuration>`
-             `<input>`
-             `<net-file value="map.net.xml"/>`
-             `<additional-files value="map.poly.xml"/>`
-             `</input>`
-`</configuration>`
+`<configuration>
+---------------<input>
+---------------<net-file value="map.net.xml"/>
+---------------<additional-files value="map.poly.xml"/>
+---------------</input>
+</configuration>`
 
 6- sumo-gui map.sumo.cfg - pegar coordenadas.
 
