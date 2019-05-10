@@ -143,6 +143,7 @@ indicam incio de transito em uma via e fim de transito em outra via.
 * https://www.udemy.com/ferramenta-de-microssimulacao-de-trafego-sumo
 * https://sumo.dlr.de/wiki/Definition_of_Vehicles,_Vehicle_Types,_and_Routes
 * https://sumo.dlr.de/wiki/NETCONVERT
+* http://cst.fee.unicamp.br/sites/default/files/sumo/sumo-roadmap.pdf
 
 
 
