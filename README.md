@@ -43,8 +43,8 @@ Conteúdo:
 
 `nano fluxo.rou.xml`
 
-Conteúdo:
-Obs: Em from e to colocar o nome das vias.
+* Conteúdo:
+* Obs: Em from e to colocar o nome das vias.
 
 ```
 <routes>
