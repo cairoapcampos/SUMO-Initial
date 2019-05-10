@@ -15,7 +15,9 @@
 
 `cp /home/veins/src/sumo-0.32.0/data/typemap/osmPolyconvert.typ.xml .`
 
-4- polyconvert --net-file map.net.xml --osm-files map.osm --type-file osmPolyconvert.typ.xml -o map.poly.xml
+4- Gerar o arquivo *.poly.xml 
+
+`polyconvert --net-file map.net.xml --osm-files map.osm --type-file osmPolyconvert.typ.xml -o map.poly.xml`
 
 5- Criar o arquivo: map.sumo.cfg
 
