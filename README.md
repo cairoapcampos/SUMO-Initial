@@ -159,6 +159,12 @@ indicam incio de transito em uma via e fim de transito em outra via.
 ## Configuração OMNET++
 
 
+1- Para importar o projeto no OMNET++ clicar em `File > Import > General: Existing Projects` e selecionar a pasta do VEINS copiada para `workspace.omnetpp`. Aguardar a importação, indicada por uma barra de progresso no canto inferior do software.
+
+2- Para que o projeto seja construído deve-se selecionar a opção `Project > Build All`. Da mesma forma do passo anteior deve-se aguardar a construção do projeto, indicada por uma barra de progresso no canto inferior do software.
+
+
+
 ### Fontes:
 
 * https://www.udemy.com/ferramenta-de-microssimulacao-de-trafego-sumo
