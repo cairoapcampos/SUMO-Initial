@@ -156,7 +156,7 @@ indicam incio de transito em uma via e fim de transito em outra via.
 ```
 
 
-## Configuração OMNET++
+## Configuração no OMNET++
 
 
 1- Para importar o projeto no OMNET++ clicar em `File > Import > General: Existing Projects` e selecionar a pasta do VEINS copiada para `workspace.omnetpp`. Aguardar a importação, indicada por uma barra de progresso no canto inferior do software.
