@@ -163,6 +163,11 @@ indicam incio de transito em uma via e fim de transito em outra via.
 
 2- Para que o projeto seja construído deve-se selecionar a opção `Project > Build All`. Da mesma forma do passo anteior deve-se aguardar a construção do projeto, indicada por uma barra de progresso no canto inferior do software.
 
+3- Inicie o script StarProxyPort, ele irá imprimir `Listening on port 9999` e aguardará o início da simulação. Deixe está janela aberta.
+
+4- No OMNeT ++ 5 IDE, para usar o cenário de demonstração do Veins, dentro da caixa Project Explorer deve-se clicar com o botão direito do mouse em `veins/examples/veins/omnetpp.ini` e escolher a opção `Run As> OMNeT ++ simulation`.
+
+5- Na janela que se abrir clicar em `Run` para executar a simulação.
 
 
 ### Fontes:
