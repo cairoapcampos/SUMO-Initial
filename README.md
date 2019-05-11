@@ -126,13 +126,34 @@ indicam incio de transito em uma via e fim de transito em outra via.
 
 `mv $HOME/workspace.omnetpp/veins/examples/veins/erlangen.rou.xml   $HOME/workspace.omnetpp/veins/examples/veins/erlangen.rou.xml.old`
 
+`mv $HOME/workspace.omnetpp/veins/examples/veins/erlangen.sumo.cfg   $HOME/workspace.omnetpp/veins/examples/veins/erlangen.sumo.cfg.old`
+
 3- Renomear arquivos gerados e movê-los para o diretório `$HOME/workspace.omnetpp/veins/examples/veins`:
 
 `cp map.net.xml erlangen.net.xml   && mv erlangen.net.xml $HOME/workspace.omnetpp/veins/examples/veins`
 
+`cp map.rou.xml erlangen.rou.xml   && mv erlangen.rou.xml $HOME/workspace.omnetpp/veins/examples/veins`
+
 `cp map.poly.xml erlangen.poly.xml && mv erlangen.poly.xml $HOME/workspace.omnetpp/veins/examples/veins`
 
-`cp map.rou.xml erlangen.rou.xml   && mv erlangen.rou.xml $HOME/workspace.omnetpp/veins/examples/veins`
+`cp map.sumo.cfg erlangen.sumo.cfg && mv erlangen.sumo.cfg $HOME/workspace.omnetpp/veins/examples/veins`
+
+4- Editar o arquivo erlangen.sumo.cfg:
+
+`nano $HOME/workspace.omnetpp/veins/examples/veins/erlangen.sumo.cfg`
+
+* Alterar suas configurações para as seguintes:
+
+```
+<configuration>
+               <input>
+               <net-file value="erlangen.net.xml"/>
+               <route-files value="erlangen.rou.xml"/>
+               <additional-files value="erlangen.poly.xml"/>
+               </input>
+</configuration>
+
+```
 
 
 ## Configuração OMNET++
