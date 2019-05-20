@@ -15,7 +15,7 @@
 
 4- Copiar arquivo osmPolyconvert.typ.xml:
 
-`cp /home/veins/src/sumo-0.32.0/data/typemap/osmPolyconvert.typ.xml .`
+`cp $HOME/src/sumo-0.32.0/data/typemap/osmPolyconvert.typ.xml .`
 
 5- Gerar o arquivo map.poly.xml:
 
