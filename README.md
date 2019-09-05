@@ -1,4 +1,4 @@
-# VANET-Initial
+# VanetInitial
 
 ## Geração do mapa no SUMO:
 
